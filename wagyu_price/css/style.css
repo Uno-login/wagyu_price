@@ -1,5 +1,6 @@
 body {
   background-color: #343a40;
+  box-sizing: border-box;
 }
 
 a {
@@ -23,6 +24,7 @@ p {
 
 .result {
   padding: 60px 20px 20px;
+  width: 100%;
 }
 
 .result a {
@@ -62,15 +64,20 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  /* カード間のスペース */
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
+
 
 .card-deck.row .card {
   flex: 0 0 25%;
-  /* 幅を25%にし、4枚並べる */
-  max-width: 25%;
+  max-width: 21%;
   box-sizing: border-box;
   margin-bottom: 20px;
+  min-width: 0;
+  background: #fff;
 }
 
 .card {
