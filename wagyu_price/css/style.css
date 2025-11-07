@@ -63,7 +63,6 @@ footer {
   padding-right: 0;
 }
 
-
 .card-deck.row .card {
   flex: 0 0 25%;
   max-width: 21%;
@@ -77,10 +76,7 @@ footer {
   border-radius: 0;
 }
 
-@media screen and (min-width:576px) {
-  /* .row {
-    margin-bottom: 30px;
-  } */
+@media screen and (max-width:576px) {
 
   #page-top {
     width: 40px;
